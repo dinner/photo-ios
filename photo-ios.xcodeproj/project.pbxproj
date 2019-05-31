@@ -15,6 +15,7 @@
 		1A149A39229F6BDA00227A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A149A38229F6BDA00227A4D /* Assets.xcassets */; };
 		1A149A3C229F6BDA00227A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A149A3A229F6BDA00227A4D /* LaunchScreen.storyboard */; };
 		1A149A3F229F6BDA00227A4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A149A3E229F6BDA00227A4D /* main.m */; };
+		1A50BF7322A0D54C004C1D00 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A50BF7222A0D54C004C1D00 /* NSString+Size.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		1A149A3B229F6BDA00227A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A149A3D229F6BDA00227A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A149A3E229F6BDA00227A4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A50BF7122A0D54C004C1D00 /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		1A50BF7222A0D54C004C1D00 /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		1A149A2E229F6BD600227A4D /* photo-ios */ = {
 			isa = PBXGroup;
 			children = (
+				1A50BF7022A0D513004C1D00 /* New Group */,
 				1A092FE422A019B700A90453 /* tmall.png */,
 				1A149A2F229F6BD600227A4D /* AppDelegate.h */,
 				1A149A30229F6BD600227A4D /* AppDelegate.m */,
@@ -77,6 +81,15 @@
 				1A092FE222A00A4B00A90453 /* ImageSaveOp.m */,
 			);
 			path = "photo-ios";
+			sourceTree = "<group>";
+		};
+		1A50BF7022A0D513004C1D00 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1A50BF7122A0D54C004C1D00 /* NSString+Size.h */,
+				1A50BF7222A0D54C004C1D00 /* NSString+Size.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				1A092FE322A00A4B00A90453 /* ImageSaveOp.m in Sources */,
 				1A149A3F229F6BDA00227A4D /* main.m in Sources */,
 				1A149A31229F6BD600227A4D /* AppDelegate.m in Sources */,
+				1A50BF7322A0D54C004C1D00 /* NSString+Size.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

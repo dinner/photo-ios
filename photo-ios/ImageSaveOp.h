@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(retain,nonatomic) NSString* prise;
 @property(retain,nonatomic) NSString* prise_now;
 @property(retain,nonatomic) NSString* sells;
-@property(retain,nonatomic) NSString* url5;
+@property(retain,nonatomic) NSString* Coupon;
 @property(retain,nonatomic) NSString* url6;
 @property(retain,nonatomic) NSString* url7;
 

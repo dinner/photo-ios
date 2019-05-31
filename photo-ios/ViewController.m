@@ -49,7 +49,11 @@
 }
 
 - (IBAction)btClicked:(id)sender {
-    NSString* url=@"http://192.168.10.191/api.php/1/files/Simiyun/WechatIMG443.jpeg?access_token=56e932fc15efc60c835273603e7ede3e&sign=d55d9e625442c364b1bb8ed35c16c63b";
+    NSString* url=@"http://192.168.10.191/api.php/1/files/Simiyun/WechatIMG443.jpeg?access_token=56e932fc15efc60c835273603e7ede3e&sign=d55d9e625442c364b1bb8ed35c16c63b";//需改info.plist
+    
+//    NSString* url=@"http://192.168.10.191/api.php/1/thumbnails/Simiyun/YunCloud_blackground.png?rev=1&size=large&access_token=56e932fc15efc60c835273603e7ede3e&sign=cec65353d6e4e9b5d567a379aec695ce&signature=cec65353d6e4e9b5d567a379aec695ce";
+//    NSString* url=@"http://192.168.10.191/index.php/api/file/download?file_id=239206";//不需要改info.plist why
+    
     flutter_info* ob=[[flutter_info alloc] init];
     
     ImageSaveOp* imgOb=[[ImageSaveOp alloc] init];
